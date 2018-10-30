@@ -1,0 +1,16 @@
+PODS:
+  - SafeCollection (3.0.0)
+
+DEPENDENCIES:
+  - SafeCollection (from `../`)
+
+EXTERNAL SOURCES:
+  SafeCollection:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SafeCollection: f2e837b2b2fd00e2130e52738d3259966eef28c6
+
+PODFILE CHECKSUM: b599e0dedde51999f41fbccc151cf8612a414afe
+
+COCOAPODS: 1.5.3

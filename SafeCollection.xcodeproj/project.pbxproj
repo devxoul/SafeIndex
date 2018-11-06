@@ -16,7 +16,7 @@
             "en"
          );
          mainGroup = "OBJ_5";
-         productRefGroup = "OBJ_14";
+         productRefGroup = "OBJ_16";
          projectDirPath = ".";
          targets = (
             "SafeCollection::SafeCollection",
@@ -30,30 +30,44 @@
          children = (
             "OBJ_11"
          );
+         name = "SafeCollection";
+         path = "Sources/SafeCollection";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_11" = {
+         isa = "PBXFileReference";
+         path = "SafeCollection.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_12" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_13"
+         );
          name = "Tests";
          path = "";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_11" = {
+      "OBJ_13" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_12"
+            "OBJ_14"
          );
          name = "SafeCollectionTests";
          path = "Tests/SafeCollectionTests";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_12" = {
+      "OBJ_14" = {
          isa = "PBXFileReference";
          path = "SafeCollectionTests.swift";
          sourceTree = "<group>";
       };
-      "OBJ_13" = {
+      "OBJ_15" = {
          isa = "PBXFileReference";
          path = "SafeCollection";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_14" = {
+      "OBJ_16" = {
          isa = "PBXGroup";
          children = (
             "SafeCollection::SafeCollectionTests::Product",
@@ -62,52 +76,6 @@
          name = "Products";
          path = "";
          sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "OBJ_18" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_19",
-            "OBJ_20"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_19" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "SafeCollection.xcodeproj/SafeCollection_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "SafeCollection";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.0";
-            TARGET_NAME = "SafeCollection";
-         };
-         name = "Debug";
       };
       "OBJ_2" = {
          isa = "XCConfigurationList";
@@ -119,7 +87,55 @@
          defaultConfigurationName = "Release";
       };
       "OBJ_20" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_21",
+            "OBJ_22"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_21" = {
          isa = "XCBuildConfiguration";
+         baseConfigurationReference = "OBJ_8";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "SafeCollection.xcodeproj/SafeCollection_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "SafeCollection";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "SafeCollection";
+         };
+         name = "Debug";
+      };
+      "OBJ_22" = {
+         isa = "XCBuildConfiguration";
+         baseConfigurationReference = "OBJ_8";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
             FRAMEWORK_SEARCH_PATHS = (
@@ -155,31 +171,31 @@
          };
          name = "Release";
       };
-      "OBJ_21" = {
+      "OBJ_23" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_22"
+            "OBJ_24"
          );
       };
-      "OBJ_22" = {
+      "OBJ_24" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_9";
+         fileRef = "OBJ_11";
       };
-      "OBJ_23" = {
+      "OBJ_25" = {
          isa = "PBXFrameworksBuildPhase";
          files = (
          );
       };
-      "OBJ_25" = {
+      "OBJ_27" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_26",
-            "OBJ_27"
+            "OBJ_28",
+            "OBJ_29"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_26" = {
+      "OBJ_28" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             LD = "/usr/bin/true";
@@ -197,7 +213,7 @@
          };
          name = "Debug";
       };
-      "OBJ_27" = {
+      "OBJ_29" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             LD = "/usr/bin/true";
@@ -214,16 +230,6 @@
             SWIFT_VERSION = "4.0";
          };
          name = "Release";
-      };
-      "OBJ_28" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_29"
-         );
-      };
-      "OBJ_29" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_6";
       };
       "OBJ_3" = {
          isa = "XCBuildConfiguration";
@@ -264,42 +270,53 @@
          };
          name = "Debug";
       };
+      "OBJ_30" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_31"
+         );
+      };
       "OBJ_31" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_6";
+      };
+      "OBJ_33" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_32",
-            "OBJ_33"
+            "OBJ_34",
+            "OBJ_35"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_32" = {
+      "OBJ_34" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
          };
          name = "Debug";
       };
-      "OBJ_33" = {
+      "OBJ_35" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
          };
          name = "Release";
       };
-      "OBJ_34" = {
+      "OBJ_36" = {
          isa = "PBXTargetDependency";
          target = "SafeCollection::SafeCollectionTests";
       };
-      "OBJ_36" = {
+      "OBJ_38" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_37",
-            "OBJ_38"
+            "OBJ_39",
+            "OBJ_40"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_37" = {
+      "OBJ_39" = {
          isa = "XCBuildConfiguration";
+         baseConfigurationReference = "OBJ_8";
          buildSettings = {
             CLANG_ENABLE_MODULES = "YES";
             EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
@@ -332,47 +349,6 @@
             TARGET_NAME = "SafeCollectionTests";
          };
          name = "Debug";
-      };
-      "OBJ_38" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "SafeCollection.xcodeproj/SafeCollectionTests_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.0";
-            TARGET_NAME = "SafeCollectionTests";
-         };
-         name = "Release";
-      };
-      "OBJ_39" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_40"
-         );
       };
       "OBJ_4" = {
          isa = "XCBuildConfiguration";
@@ -407,20 +383,62 @@
          name = "Release";
       };
       "OBJ_40" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_12";
+         isa = "XCBuildConfiguration";
+         baseConfigurationReference = "OBJ_8";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "SafeCollection.xcodeproj/SafeCollectionTests_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "SafeCollectionTests";
+         };
+         name = "Release";
       };
       "OBJ_41" = {
-         isa = "PBXFrameworksBuildPhase";
+         isa = "PBXSourcesBuildPhase";
          files = (
             "OBJ_42"
          );
       };
       "OBJ_42" = {
          isa = "PBXBuildFile";
-         fileRef = "SafeCollection::SafeCollection::Product";
+         fileRef = "OBJ_14";
       };
       "OBJ_43" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_44"
+         );
+      };
+      "OBJ_44" = {
+         isa = "PBXBuildFile";
+         fileRef = "SafeCollection::SafeCollection::Product";
+      };
+      "OBJ_45" = {
          isa = "PBXTargetDependency";
          target = "SafeCollection::SafeCollection";
       };
@@ -429,9 +447,10 @@
          children = (
             "OBJ_6",
             "OBJ_7",
-            "OBJ_10",
-            "OBJ_13",
-            "OBJ_14"
+            "OBJ_9",
+            "OBJ_12",
+            "OBJ_15",
+            "OBJ_16"
          );
          path = "";
          sourceTree = "<group>";
@@ -447,30 +466,30 @@
          children = (
             "OBJ_8"
          );
+         name = "Configs";
+         path = "";
+         sourceTree = "<group>";
+      };
+      "OBJ_8" = {
+         isa = "PBXFileReference";
+         path = "Package.xcconfig";
+         sourceTree = "<group>";
+      };
+      "OBJ_9" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_10"
+         );
          name = "Sources";
          path = "";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_8" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_9"
-         );
-         name = "SafeCollection";
-         path = "Sources/SafeCollection";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_9" = {
-         isa = "PBXFileReference";
-         path = "SafeCollection.swift";
-         sourceTree = "<group>";
-      };
       "SafeCollection::SafeCollection" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_18";
+         buildConfigurationList = "OBJ_20";
          buildPhases = (
-            "OBJ_21",
-            "OBJ_23"
+            "OBJ_23",
+            "OBJ_25"
          );
          dependencies = (
          );
@@ -486,24 +505,24 @@
       };
       "SafeCollection::SafeCollectionPackageTests::ProductTarget" = {
          isa = "PBXAggregateTarget";
-         buildConfigurationList = "OBJ_31";
+         buildConfigurationList = "OBJ_33";
          buildPhases = (
          );
          dependencies = (
-            "OBJ_34"
+            "OBJ_36"
          );
          name = "SafeCollectionPackageTests";
          productName = "SafeCollectionPackageTests";
       };
       "SafeCollection::SafeCollectionTests" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_36";
+         buildConfigurationList = "OBJ_38";
          buildPhases = (
-            "OBJ_39",
-            "OBJ_41"
+            "OBJ_41",
+            "OBJ_43"
          );
          dependencies = (
-            "OBJ_43"
+            "OBJ_45"
          );
          name = "SafeCollectionTests";
          productName = "SafeCollectionTests";
@@ -517,9 +536,9 @@
       };
       "SafeCollection::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_25";
+         buildConfigurationList = "OBJ_27";
          buildPhases = (
-            "OBJ_28"
+            "OBJ_30"
          );
          dependencies = (
          );

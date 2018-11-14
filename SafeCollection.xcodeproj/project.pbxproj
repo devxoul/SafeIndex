@@ -70,8 +70,8 @@
       "OBJ_16" = {
          isa = "PBXGroup";
          children = (
-            "SafeCollection::SafeCollectionTests::Product",
-            "SafeCollection::SafeCollection::Product"
+            "SafeCollection::SafeCollection::Product",
+            "SafeCollection::SafeCollectionTests::Product"
          );
          name = "Products";
          path = "";
